@@ -3,6 +3,6 @@
 FILE=langs.txt
 
 while read line; do
-	echo $line
+	touch $line/$line.txt
 done < $FILE
 
